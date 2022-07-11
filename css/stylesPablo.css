@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "arial";
+}
+
+.custom-section {
+  background-color: #eef3f9;
+  padding-bottom: 80px;
+  padding-top: 390px;
+}
+
+.custom-row {
+  top: 30%;
+}
+
+.per-month {
+  font-size: 10px;
+}
+
+.title-section {
+  color: #3e4042;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 60px;
+}
+
+.title-sec-container {
+  text-align: center;
+}
+
+.lead {
+  color: #69707a;
+  font-weight: 480;
+  text-align: center;
+}
+
+.custom-card-shadow {
+  box-shadow: 0 2.4px 28px 0px rgba(33, 40, 50, 0.15);
+}
+
+.custom-card {
+  height: 450px;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.precio {
+  font-size: 3rem;
+}
+
+.ul-card li {
+  font-size: 1rem;
+  position: relative;
+  list-style: none;
+  text-align: left;
+  justify-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.badge {
+  padding: 5px 12px;
+}
+
+.custom-badge {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ul-card-right {
+  transform: translate(25px);
+}
+
+.card-right-paragraph {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.custom-bg-primary {
+  background-color: #dae7fb;
+}
+
+.check-arrow {
+  margin-right: 10px;
+  width: 15px;
+  color: #00ba94;
+}
+
+.circle {
+  margin-right: 10px;
+  width: 15px;
+  color: #64646439;
+}
+
+sup {
+  font-size: 1.8rem;
+}
+
+.span-per-month {
+  font-size: 20px;
+  margin-left: 13px;
+}
+
+.span-per-month-left {
+  font-size: 10px;
+}
+
+.no-price-card {
+  position: relative;
+}
+
+.custom-btn {
+  width: 120px;
+  height: 43px;
+  margin-top: 30px;
+  padding-bottom: 6.5px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 6px;
+}
+
+@import url(//db.onlinewebfonts.com/c/c02d97eb2b2899bdb0d87b182a64333d?family=Metropolis);
+
+@media (max-width: 1200px) {
+  .custom-row {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 967px) {
+  .custom-btn {
+    display: inline;
+    transform: translatex(-35px);
+    margin-top: 80px;
+  }
+}
+
+footer {
+  background-color: #212832;
+}
+
+.letra-lista-footer {
+  color: rgb(181, 180, 180);
+  list-style-type: none;
+  padding: 0;
+}
+
+.letra-titulo-footer {
+  color: rgb(181, 180, 180);
+}
+
+.curve {
+  position: absolute;
+  width: 100%;
+  top: 460px;
+  height: 2.5rem;
+  background-image: linear-gradient(
+    90deg,
+    hsl(223deg 84% 50%) 0%,
+    hsl(231deg 78% 52%) 27%,
+    hsl(240deg 71% 53%) 51%,
+    hsl(250deg 71% 49%) 76%,
+    hsl(258deg 79% 45%) 100%
+  );
+}
+
+.icon-github {
+  font-size: 30px;
+}
+
+h4 {
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  width: 50px;
+  top: 100px;
+  color: #011029c3;
+  line-height: 11px;
+}
+
+.git-logo:before {
+  content: "\e902";
+  font-size: 2px;
+  font-weight: 500;
+  color: white;
+  top: 20px;
+  left: 0px;
+}
+
+.icon-github {
+  position: relative;
+  left: 35px;
+  top: -30px;
+  font-size: 35px;
+}
+
+h4:hover {
+  cursor: pointer;
+}
+
+/* probando */
+.slidein {
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  transition: all ease-in-out;
+}
+
+.stopped {
+  animation-name: none;
+}
+
+@keyframes slidein {
+  0% {
+    margin-top: -5%;
+  }
+  50% {
+    margin-top: 0%;
+  }
+  100% {
+    margin-top: -5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .custom-section {
+    padding-top: 261.8px;
+  }
+}
+
+@media (max-width: 494px) {
+  .custom-section {
+    padding-top: 297px;
+  }
+}
+
+@media (max-width: 600px) {
+  .curve {
+    background-image: linear-gradient(
+      90deg,
+      hsl(238deg 73% 53%) 0%,
+      hsl(237deg 75% 52%) 9%,
+      hsl(236deg 77% 51%) 18%,
+      hsl(235deg 79% 50%) 27%,
+      hsl(236deg 79% 50%) 36%,
+      hsl(240deg 75% 52%) 45%,
+      hsl(244deg 72% 51%) 55%,
+      hsl(247deg 70% 50%) 64%,
+      hsl(250deg 71% 49%) 73%,
+      hsl(253deg 73% 48%) 82%,
+      hsl(255deg 76% 47%) 91%,
+      hsl(258deg 79% 45%) 100%
+    );
+  }
+}

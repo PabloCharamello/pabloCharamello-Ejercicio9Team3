@@ -1,0 +1,110 @@
+#navbar-buttom-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.custom-header-row {
+  margin: 0px 15px;
+}
+
+.custom-buttom-font {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.custom-buttom-header {
+  position: relative;
+  top: -4px;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.custom-nav-items {
+  padding: 0 0.5px 0 0.5px;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.nav-active {
+  background-color: rgb(24, 24, 26);
+}
+.home {
+  position: relative;
+  top: 2px;
+}
+
+/*  <svg class="svg-inline--fa fa-chevron-right dropdown-arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg> */
+.icon-chevron-small-right:before {
+  content: "\e900";
+  font-size: 20px;
+  position: relative;
+  top: 4px;
+}
+
+#toggler image {
+  color: white;
+}
+
+.btn-success,
+.btn-success:active,
+.btn-success:visited {
+  background-color: #56ae9c !important;
+}
+
+.btn-success:hover {
+  transition: ease-in-out;
+  background-color: #009e7e !important;
+}
+
+.nav-link,
+.nav-link:active,
+.nav-link:visited {
+  font-weight: 500;
+  color: rgb(199, 195, 234) !important;
+}
+
+.nav-link:hover {
+  transition: ease-in-out;
+  color: rgb(226, 224, 224) !important;
+}
+#navbar-brand {
+  color: white;
+}
+
+h6 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.custom-footer-row {
+  margin: 0px 40px;
+}
+
+.for-li-right-footer {
+  margin: 0px 30px;
+}
+
+.letra-lista-footer {
+  font-size: 0.9rem;
+}
+
+.info-footer-section {
+  padding-left: 65px;
+  padding-right: 85px;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background-color: rgb(24, 24, 26);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    background-color: transparent;
+    transition: 0.5s;
+  }
+}

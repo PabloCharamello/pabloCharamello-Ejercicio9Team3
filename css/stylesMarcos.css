@@ -1,0 +1,30 @@
+/* ESTE ES EL BACKGROUND-COLOR DEL HEADER */
+/*     background-color: #0061f2 !important;
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+} */
+
+#section-hero {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0%;
+  height: 460px;
+  
+  background-color: #0061f2 !important;
+  background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+#hero-paragraph {
+  position: relative;
+  font-size: 1.5rem;
+  top: 5px;
+  color: rgb(199, 195, 234);
+}
+
+#section-simple-pricing {
+  color: #f2f6fc;
+  font-size: 2.9rem;
+  padding-top: 40px ;
+}
